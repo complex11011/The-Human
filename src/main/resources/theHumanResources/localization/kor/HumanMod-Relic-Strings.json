@@ -1,0 +1,39 @@
+{
+  "theHuman:HumanRelic": {
+    "NAME": "따봉",
+    "FLAVOR": "고통을 숨겨라, 해롤드!(Hide the pain, Harold!)",
+    "DESCRIPTIONS": [
+      "전투 시작시, #y건강을 #b5 얻고 방어도를 #b5 얻습니다.",
+      " NL NL 건강 수치는 3단계까지 존재합니다: 건강함 ( 0 - 10 ), 매우 건강함 ( 11 - 18 ), 진짜 엄청 건강함 ( > 18 ).",
+      " NL NL 카드 보상이 3개에서 4개로 증가합니다"
+    ]
+  },
+  "theHuman:Environmentalist": {
+    "NAME": "환경 운동가",
+    "FLAVOR": "\"청소 작업반\"",
+    "DESCRIPTIONS": [
+      "매 턴 시작시, 무작위 #y쓰레기 1장을 얻습니다."
+    ]
+  },
+  "theHuman:SecretTraining": {
+    "NAME": "비밀 훈련법",
+    "FLAVOR": "적에게 발각되지 않는 가장 좋은 방법은... 닌자가 되라는데요?",
+    "DESCRIPTIONS": [
+      "[#2aecd7]전투에서 [#2aecd7]1번만 [#2aecd7]사용이 [#2aecd7]가능합니다. NL NL 카드를 3장 뽑고 #y찔러라 #y찔러! 1장을 얻습니다."
+    ]
+  },
+  "theHuman:EmeraldEyepiece": {
+    "NAME": "에메랄드 렌즈",
+    "FLAVOR": "감정 전문가의 시그니쳐죠.",
+    "DESCRIPTIONS": [
+      "골드 소모시, 골드 소모량이 200골드 이상이라면 20 골드를 얻습니다. 그 이하라면 30 골드를 얻습니다."
+    ]
+  },
+  "theHuman:FireArms": {
+    "NAME": "불타오르는 무장",
+    "FLAVOR": "평화조약 노력에서 퇴보한 혁명의 발걸음입니다.",
+    "DESCRIPTIONS": [
+      "#y무기 카드로 #y사격 할때마다, 대상에게 #y화상 을 #b1 부여합니다."
+    ]
+  }
+}
