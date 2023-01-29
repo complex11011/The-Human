@@ -17,7 +17,7 @@ import theHuman.characters.TheHuman;
 
 import static theHuman.HumanMod.makeCardPath;
 
-
+@AutoAdd.Ignore
 public class MK3A2Grenade extends AbstractDynamicCard {
 
     public static final String ID =

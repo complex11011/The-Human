@@ -41,7 +41,7 @@ public class Ignore extends AbstractDynamicCard implements OnShuffleSubscriber {
     private static final CardType TYPE = CardType.SKILL;
     private static final int COST = 2;
 
-    private static final int BLOCK = 14;
+    private static final int BLOCK = 10;
     private static final int UPGRADE_PLUS_BLOCK = 6;
     private static final TooltipInfo toolTipInfo =
         new TooltipInfo("[#34eb52]" + uiStrings.TEXT[0], uiStrings.TEXT[1]);

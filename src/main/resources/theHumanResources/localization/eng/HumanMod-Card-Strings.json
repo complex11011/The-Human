@@ -309,7 +309,7 @@
   },
   "theHuman:HeelKick": {
     "NAME": "Heel Kick",
-    "DESCRIPTION": "Deal !D! damage twice. NL [#a83277]Technique[]: Deal !D! damage to a random enemy 2 times."
+    "DESCRIPTION": "Deal !D! damage twice. NL [#a83277]Technique[]: Deal !D! damage to a random enemy twice."
   },
   "theHuman:AWP": {
     "NAME": "AWP",
