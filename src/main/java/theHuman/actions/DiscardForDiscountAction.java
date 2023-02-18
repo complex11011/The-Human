@@ -30,6 +30,10 @@ public class DiscardForDiscountAction extends AbstractGameAction {
         }
         if (!AbstractDungeon.handCardSelectScreen.wereCardsRetrieved) {
             if (!AbstractDungeon.handCardSelectScreen.selectedCards.group.isEmpty()) {
+                if (player.hand.isEmpty()) {
+                    this.isDone = true;
+                    return;
+                }
                 this.addToTop(new SingleCardCostsXAction(player.hand.getRandomCard(true), false));
             }
 
