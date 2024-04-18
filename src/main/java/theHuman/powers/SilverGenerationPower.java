@@ -64,7 +64,7 @@ public class SilverGenerationPower extends TwoAmountPower
         if (this.amount2 == 3) {
             for (AbstractMonster mo : AbstractDungeon.getCurrRoom().monsters.monsters) {
                 this.addToBot(new ApplyPowerAction(mo, mo,
-                                                   new AgeingPower(mo, mo,
+                                                   new AgingPower(mo, mo,
                                                                    amount)));
             }
             this.amount2 = 0;

@@ -10,7 +10,7 @@ import com.megacrit.cardcrawl.localization.UIStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import theHuman.HumanMod;
 import theHuman.characters.TheHuman;
-import theHuman.powers.AgeingPower;
+import theHuman.powers.AgingPower;
 import theHuman.powers.InjuredPower;
 
 import java.util.Collections;
@@ -29,7 +29,7 @@ public class BackPain extends AbstractDynamicCard {
     public static final String IMG = makeCardPath("BackPain.png");
     public static final CardColor COLOR = TheHuman.Enums.COLOR_SKIN;
     private static final UIStrings uiStrings =
-        CardCrawlGame.languagePack.getUIString(getModID() + ":AgeingWords");
+        CardCrawlGame.languagePack.getUIString(getModID() + ":AgingWords");
     private static final CardRarity RARITY = CardRarity.UNCOMMON;
     private static final CardTarget TARGET = CardTarget.NONE;
     private static final CardType TYPE = CardType.SKILL;
@@ -58,7 +58,7 @@ public class BackPain extends AbstractDynamicCard {
     public void use(AbstractPlayer p, AbstractMonster m) {
         for (AbstractMonster mo : AbstractDungeon.getCurrRoom().monsters.monsters) {
             this.addToBot(
-                new ApplyPowerAction(mo, mo, new AgeingPower(mo, mo, 1)));
+                new ApplyPowerAction(mo, mo, new AgingPower(mo, mo, 1)));
         }
         for (AbstractMonster mo : AbstractDungeon.getCurrRoom().monsters.monsters) {
             this.addToBot(

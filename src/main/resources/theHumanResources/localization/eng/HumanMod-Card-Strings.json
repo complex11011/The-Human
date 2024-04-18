@@ -385,9 +385,9 @@
     "NAME": "Arcade",
     "DESCRIPTION": "For each energy you have, deal !D! damage to a random enemy and thehuman:Uncover a card."
   },
-  "theHuman:Ageing": {
-    "NAME": "Ageing",
-    "DESCRIPTION": "Apply 1 *Ageing to all enemies. NL [#34eb52]Pacifist[]: Gain 10 Block."
+  "theHuman:Aging": {
+    "NAME": "Aging",
+    "DESCRIPTION": "Apply 1 *Aging to all enemies. NL [#34eb52]Pacifist[]: Gain 10 Block."
   },
   "theHuman:Ignore": {
     "NAME": "Ignore",
@@ -472,11 +472,11 @@
   },
   "theHuman:BackPain": {
     "NAME": "Back Pain",
-    "DESCRIPTION": "Apply 1 *Ageing and 2 thehuman:Injured to ALL enemies."
+    "DESCRIPTION": "Apply 1 *Aging and 2 thehuman:Injured to ALL enemies."
   },
   "theHuman:SilverGeneration": {
     "NAME": "Silver Generation",
-    "DESCRIPTION": "At the start of every third turn you take, apply 1 *Ageing to ALL enemies."
+    "DESCRIPTION": "At the start of every third turn you take, apply 1 *Aging to ALL enemies."
   },
   "theHuman:ManOfTomorrow": {
     "NAME": "Man Of Tomorrow",

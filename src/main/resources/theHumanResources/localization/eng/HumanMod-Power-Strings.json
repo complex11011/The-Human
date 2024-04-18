@@ -119,8 +119,8 @@
       "If the next card you play is a [#a83277]Technique[], trigger its [#a83277]Technique[] effect."
     ]
   },
-  "theHuman:AgeingPower": {
-    "NAME": "Ageing",
+  "theHuman:AgingPower": {
+    "NAME": "Aging",
     "DESCRIPTIONS": [
       "At the start of your turn, if you have 12 or more stacks of this, die. NL For each stack of this, damage dealt is reduced by 4%. NL At the end of your turn, gain 1 stack of this."
     ]
@@ -190,7 +190,7 @@
     "NAME": "Getting Older",
     "DESCRIPTIONS": [
       "At the start of every third turn you take, apply ",
-      " #yAgeing to ALL enemies."
+      " #yAging to ALL enemies."
     ]
   },
   "theHuman:BurningPower": {

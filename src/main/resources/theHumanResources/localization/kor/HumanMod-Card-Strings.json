@@ -385,7 +385,7 @@
     "NAME": "오락실",
     "DESCRIPTION": "보유한 에너지 1당, 무작위 적에게 피해를 !D! 주고 카드를 1장 thehuman:개봉 합니다."
   },
-  "theHuman:Ageing": {
+  "theHuman:Aging": {
     "NAME": "노화",
     "DESCRIPTION": "적 전체에게 *노화 1을 부여합니다. NL [#34eb52]평화주의[]: 방어도를 10 얻습니다."
   },

@@ -11,9 +11,9 @@
       "Whenever you shuffle your draw pile, perform an additional effect."
     ]
   },
-  "theHuman:AgeingWords": {
+  "theHuman:AgingWords": {
     "TEXT": [
-      "Ageing",
+      "Aging",
       "At the start of your turn, if your have 12 or more stacks of this, die. NL At the end of your turn, gain a stack of this. NL For each stack of this you have, reduce your damage dealt by 4%."
     ]
   },

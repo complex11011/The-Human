@@ -27,7 +27,7 @@ public class SilverGeneration extends AbstractDynamicCard {
     public static final String IMG = makeCardPath("SilverGeneration.png");
     public static final CardColor COLOR = TheHuman.Enums.COLOR_SKIN;
     private static final UIStrings uiStrings =
-        CardCrawlGame.languagePack.getUIString(getModID() + ":AgeingWords");
+        CardCrawlGame.languagePack.getUIString(getModID() + ":AgingWords");
     private static final CardRarity RARITY = CardRarity.RARE;
     private static final CardTarget TARGET = CardTarget.SELF;
     private static final CardType TYPE = CardType.POWER;
