@@ -13,7 +13,7 @@ import com.megacrit.cardcrawl.localization.UIStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import theHuman.HumanMod;
 import theHuman.characters.TheHuman;
-import theHuman.powers.AgeingPower;
+import theHuman.powers.AgingPower;
 import theHuman.util.HumanUtils;
 
 import java.util.Arrays;
@@ -22,17 +22,17 @@ import java.util.List;
 import static theHuman.HumanMod.getModID;
 import static theHuman.HumanMod.makeCardPath;
 
-public class Ageing extends AbstractDynamicCard {
+public class Aging extends AbstractDynamicCard {
 
     public static final String ID =
-        HumanMod.makeID(Ageing.class.getSimpleName());
+        HumanMod.makeID(Aging.class.getSimpleName());
     public static final CardStrings cardStrings =
         CardCrawlGame.languagePack.getCardStrings(ID);
     public static final String DESCRIPTION = cardStrings.NAME;
-    public static final String IMG = makeCardPath("Ageing.png");
+    public static final String IMG = makeCardPath("Aging.png");
     public static final CardColor COLOR = TheHuman.Enums.COLOR_SKIN;
     private static final UIStrings uiStrings =
-        CardCrawlGame.languagePack.getUIString(getModID() + ":AgeingWords");
+        CardCrawlGame.languagePack.getUIString(getModID() + ":AgingWords");
     private static final UIStrings uiStrings2 =
         CardCrawlGame.languagePack.getUIString(getModID() + ":PacifistWords");
     private static final CardRarity RARITY = CardRarity.UNCOMMON;
@@ -48,7 +48,7 @@ public class Ageing extends AbstractDynamicCard {
     private static final List<TooltipInfo> customTooltips =
         Arrays.asList(toolTipInfo, toolTipInfo2);
 
-    public Ageing() {
+    public Aging() {
         super(ID, IMG, COST, TYPE, COLOR, RARITY, TARGET, customTooltips);
         isInnate = true;
         exhaust = true;
@@ -72,7 +72,7 @@ public class Ageing extends AbstractDynamicCard {
     public void use(AbstractPlayer p, AbstractMonster m) {
         for (AbstractMonster mo : AbstractDungeon.getCurrRoom().monsters.monsters) {
             this.addToBot(
-                new ApplyPowerAction(mo, mo, new AgeingPower(mo, mo, 1)));
+                new ApplyPowerAction(mo, mo, new AgingPower(mo, mo, 1)));
         }
 
         if (!HumanUtils.checkHandForAttacks(p)) {

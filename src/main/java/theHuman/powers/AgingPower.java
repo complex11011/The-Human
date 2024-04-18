@@ -17,21 +17,21 @@ import theHuman.util.TextureLoader;
 
 import static theHuman.HumanMod.makePowerPath;
 
-public class AgeingPower extends AbstractPower
+public class AgingPower extends AbstractPower
     implements CloneablePowerInterface {
-    public static final String POWER_ID = HumanMod.makeID("AgeingPower");
+    public static final String POWER_ID = HumanMod.makeID("AgingPower");
     private static final PowerStrings powerStrings =
         CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
     public static final String NAME = powerStrings.NAME;
     public static final String[] DESCRIPTIONS = powerStrings.DESCRIPTIONS;
 
     private static final Texture tex84 =
-        TextureLoader.getTexture(makePowerPath("AgeingPower_84.png"));
+        TextureLoader.getTexture(makePowerPath("AgingPower_84.png"));
     private static final Texture tex32 =
-        TextureLoader.getTexture(makePowerPath("AgeingPower_32.png"));
+        TextureLoader.getTexture(makePowerPath("AgingPower_32.png"));
     public AbstractCreature source;
 
-    public AgeingPower(final AbstractCreature owner,
+    public AgingPower(final AbstractCreature owner,
                        final AbstractCreature source, final int amount) {
         name = NAME;
         ID = POWER_ID;
@@ -93,7 +93,7 @@ public class AgeingPower extends AbstractPower
 
     @Override
     public AbstractPower makeCopy() {
-        return new AgeingPower(owner, source, amount);
+        return new AgingPower(owner, source, amount);
     }
 
     public static boolean checkIfAlive(AbstractCreature creature) {
