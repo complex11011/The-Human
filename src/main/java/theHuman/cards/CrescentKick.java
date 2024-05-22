@@ -40,8 +40,8 @@ public class CrescentKick extends AbstractDynamicCard {
     private static final CardType TYPE = CardType.ATTACK;
     private static final int COST = 2;
 
-    private static final int DAMAGE = 8;
-    private static final int UPGRADE_PLUS_DMG = 4;
+    private static final int DAMAGE = 6;
+    private static final int UPGRADE_PLUS_DMG = 2;
     private static final TooltipInfo toolTipInfo =
         new TooltipInfo("[#a83277]" + uiStrings.TEXT[0], uiStrings.TEXT[1]);
     private static final List<TooltipInfo> customTooltips =

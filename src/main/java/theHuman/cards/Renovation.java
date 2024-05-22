@@ -50,7 +50,7 @@ public class Renovation extends AbstractDynamicCard {
         int size = p.hand.size();
         this.addToBot(new DiscardAction(p, p, size, true));
         this.addToBot(new DrawCardAction(magicNumber));
-        size = p.hand.size();
+        size = Math.max(10, p.hand.size());
         this.addToBot(new DiscardAction(p, p, size, true));
         this.addToBot(new DrawCardAction(defaultSecondMagicNumber));
     }

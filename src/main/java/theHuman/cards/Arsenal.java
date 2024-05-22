@@ -1,5 +1,7 @@
 package theHuman.cards;
 
+import static theHuman.HumanMod.makeCardPath;
+
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
@@ -8,8 +10,6 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import theHuman.HumanMod;
 import theHuman.characters.TheHuman;
 import theHuman.powers.ArsenalPower;
-
-import static theHuman.HumanMod.makeCardPath;
 
 public class Arsenal extends AbstractDynamicCard {
 
@@ -48,7 +48,6 @@ public class Arsenal extends AbstractDynamicCard {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        this.addToBot(
-            new ApplyPowerAction(p, p, new ArsenalPower(p, p, magicNumber)));
+        this.addToBot(new ApplyPowerAction(p, p, new ArsenalPower(p, p, magicNumber)));
     }
 }

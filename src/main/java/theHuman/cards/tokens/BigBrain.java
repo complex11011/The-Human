@@ -55,6 +55,9 @@ public class BigBrain extends AbstractDynamicCard {
                 cardsList.add(c);
             }
         }
+        if (cardsList.isEmpty()) {
+            return;
+        }
         AbstractCard chosen = cardsList.get(
             AbstractDungeon.cardRandomRng.random(cardsList.size() - 1));
         this.addToBot(new SingleCardCostsXAction(chosen, 0, false));

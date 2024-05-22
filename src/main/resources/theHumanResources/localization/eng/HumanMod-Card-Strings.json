@@ -444,7 +444,7 @@
     "DESCRIPTION": "",
     "EXTENDED_DESCRIPTION": [
       "At the start of your turn, find 1 thehuman:Junk. NL Whenever you play ",
-      " thehuman:Junk, deal 5 damage to a random enemy, then gain 1 Strength and Dexterity."
+      " thehuman:Junk, deal !D! damage to a random enemy, then gain 1 Strength and Dexterity."
     ]
   },
   "theHuman:Renovation": {

@@ -50,7 +50,7 @@ public class TrashMonsterPower extends TwoAmountPower
         this.amount2 = amount2;
         this.source = source;
 
-        this.limit = Math.max(6 - limit, 1);
+        this.limit = limit;
 
         type = PowerType.BUFF;
         isTurnBased = false;
@@ -59,6 +59,10 @@ public class TrashMonsterPower extends TwoAmountPower
         this.region48 = new TextureAtlas.AtlasRegion(tex32, 0, 0, 32, 32);
 
         updateDescription();
+    }
+
+    public int getLimit() {
+        return this.limit;
     }
 
     @Override
@@ -82,7 +86,7 @@ public class TrashMonsterPower extends TwoAmountPower
             if (amount2 >= limit) {
                 AbstractPlayer p = AbstractDungeon.player;
                 this.addToBot(new DamageRandomEnemyAction(
-                    new DamageInfo(AbstractDungeon.player, 5,
+                    new DamageInfo(AbstractDungeon.player, amount * 5,
                                    DamageInfo.DamageType.NORMAL),
                     AbstractGameAction.AttackEffect.BLUNT_LIGHT));
                 this.addToBot(

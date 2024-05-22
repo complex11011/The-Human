@@ -32,7 +32,7 @@ public class OldShoes extends AbstractDynamicCard {
 
     public OldShoes() {
         super(ID, IMG, COST, TYPE, COLOR, RARITY, TARGET);
-        magicNumber = baseMagicNumber = 3;
+        magicNumber = baseMagicNumber = 2;
         purgeOnUse = true;
         this.tags.add(HumanMod.HumanCardTags.JUNK_HUMAN);
     }

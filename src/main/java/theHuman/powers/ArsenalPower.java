@@ -60,13 +60,15 @@ public class ArsenalPower extends AbstractPower
 
     @Override
     public void atStartOfTurnPostDraw() {
-        this.flash();
-        AbstractCard c = HumanUtils.getRandomShootWeapon();
-        c.setCostForTurn(0);
-        c.isCostModified = true;
-        c.exhaust = true;
-        UncoveredField.uncovered.set(c, true);
-        AbstractDungeon.effectList.add(new ShowCardAndAddToHandEffect(c));
+        for (int i = 0; i < amount; i++) {
+            this.flash();
+            AbstractCard c = HumanUtils.getRandomShootWeapon();
+            c.setCostForTurn(0);
+            c.isCostModified = true;
+            c.exhaust = true;
+            UncoveredField.uncovered.set(c, true);
+            AbstractDungeon.effectList.add(new ShowCardAndAddToHandEffect(c));
+        }
     }
 
     @Override
