@@ -2,7 +2,7 @@
  
 ## **Introduces Harold The Human, a versatile character that relies on many unique mechanics to win!**
 
-**- 80+ cards with more being added**
+**- Fully-fleshed out cardpool: 90 cards!**
 
 **- Utility class that supports many different playstyles**
 
