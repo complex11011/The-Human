@@ -25,11 +25,11 @@ public class Happiness extends AbstractDynamicCard {
     private static final CardRarity RARITY = CardRarity.RARE;
     private static final CardTarget TARGET = CardTarget.NONE;
     private static final CardType TYPE = CardType.POWER;
-    private static final int COST = 3;
+    private static final int COST = 2;
 
     public Happiness() {
         super(ID, IMG, COST, TYPE, COLOR, RARITY, TARGET);
-        magicNumber = baseMagicNumber = 5;
+        magicNumber = baseMagicNumber = 4;
     }
 
     @Override

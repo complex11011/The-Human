@@ -44,7 +44,7 @@ public class InThePark extends AbstractDynamicCard
 
     public InThePark() {
         super(ID, IMG, COST, TYPE, COLOR, RARITY, TARGET, customTooltips);
-        magicNumber = baseMagicNumber = 2;
+        magicNumber = baseMagicNumber = 3;
         defaultSecondMagicNumber = defaultBaseSecondMagicNumber = 1;
     }
 

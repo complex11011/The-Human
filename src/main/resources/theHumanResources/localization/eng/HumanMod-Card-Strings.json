@@ -220,7 +220,7 @@
   },
   "theHuman:SpringCleaning": {
     "NAME": "Spring Cleaning",
-    "DESCRIPTION": "Exhaust your discard pile. NL For each card Exhausted this way, deal !D! damage to all enemies. NL [#2000a7]Lifestyle[]: Deal 11 damage to a random enemy."
+    "DESCRIPTION": "Exhaust your discard pile. NL For each card Exhausted this way, deal !D! damage to all enemies. NL [#2000a7]Lifestyle[]: Deal 8 damage to a random enemy."
   },
   "theHuman:InThePark": {
     "NAME": "In The Park",

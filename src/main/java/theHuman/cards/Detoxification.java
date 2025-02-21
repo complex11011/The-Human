@@ -39,7 +39,7 @@ public class Detoxification extends AbstractDynamicCard {
     public Detoxification() {
         super(ID, IMG, COST, TYPE, COLOR, RARITY, TARGET);
         block = baseBlock = BLOCK;
-        magicNumber = baseMagicNumber = 1;
+        magicNumber = baseMagicNumber = 2;
     }
 
     @Override

@@ -36,9 +36,9 @@ public class SpringCleaning extends AbstractDynamicCard
     private static final CardRarity RARITY = CardRarity.UNCOMMON;
     private static final CardTarget TARGET = CardTarget.NONE;
     private static final CardType TYPE = CardType.ATTACK;
-    private static final int COST = 2;
+    private static final int COST = 3;
 
-    private static final int DAMAGE = 9;
+    private static final int DAMAGE = 5;
     private static final int UPGRADE_PLUS_DMG = 2;
     private static final TooltipInfo toolTipInfo =
         new TooltipInfo("[#2000a7]" + uiStrings.TEXT[0], uiStrings.TEXT[1]);
@@ -53,7 +53,7 @@ public class SpringCleaning extends AbstractDynamicCard
     @Override
     public void onShuffle() {
         this.addToBot(new DamageRandomEnemyAction(
-            new DamageInfo(AbstractDungeon.player, 11,
+            new DamageInfo(AbstractDungeon.player, 8,
                            DamageInfo.DamageType.NORMAL),
             AbstractGameAction.AttackEffect.BLUNT_HEAVY));
     }
